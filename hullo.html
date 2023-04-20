@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="hullo.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+
+    <h1 id="header">
+      <span>You wake up in the morning</span><br>
+      <span>It is 6:00 in the morning.</span><br>
+      <span>You over hear a conversation.</span><br>
+      <span>You find out the family is in debt due to payments for your treatment.</span><br>
+
+      <span>What do you want to do?</span><br>
+      </h1>
+    
+        <input type="submit" onclick="functionA1()" value="Go to work" class="button">
+        <input type="submit" onclick="functionA2()" value="Skip Work" class="button1">
+        
+        <section>
+          <div class='air air1'></div>
+          <div class='air air2'></div>
+          <div class='air air3'></div>
+          <div class='air air4'></div>
+        </section>
+        
+        <main>
+        </main>
+        <script>
+          function functionA1(){
+              window.location.href="Go to work.html"
+          }
+          
+          
+          function functionA2(){
+              window.location.href="Skip work.html"
+          }</script>
+      </body>
+    </html>
